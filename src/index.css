@@ -23,7 +23,7 @@ button {
 
 .navbar {
   padding: 20px;
-  width: 15vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   background-color:rgb(15, 122, 184);
@@ -152,5 +152,23 @@ button {
   outline: 2px solid rgb(12, 177, 136);
   outline-offset: -2px;
   color: rgb(12, 177, 136);
+}
+
+@media screen and (max-width: 800px) {
+  .group-wrapper {
+    width: 70vw;
+  }
+
+  .groups {
+    width: 50%;
+  }
+
+  .lastOverflow {
+    width: 50%;
+  }
+
+  .lastDaysList {
+    width: 100%;
+  }
 }
 

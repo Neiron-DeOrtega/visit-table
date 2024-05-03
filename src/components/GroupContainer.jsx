@@ -7,6 +7,8 @@ import { useState } from "react";
 
 export const GroupContainer = () => {
 
+    // const [dateState, setDateState] = useState(currentDate)
+
     const data = useLoaderData()
     const pathname = window.location.pathname.replace("/group/", "")
 
